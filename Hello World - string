@@ -1,3 +1,5 @@
+// Description: This C# Program stores the string hello world in a variable called myString and print the stgring to the screen
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +12,8 @@ namespace BuildingBlocks
     {
         static void Main(string[] args)
         {
-            var myString = "Hello World";
-            Console.WriteLine(myString);
+            var myString = "Hello World"; // stores hello world  in var myString
+            Console.WriteLine(myString);  // Outputs Hello World to the screen
         }
     }
 }
